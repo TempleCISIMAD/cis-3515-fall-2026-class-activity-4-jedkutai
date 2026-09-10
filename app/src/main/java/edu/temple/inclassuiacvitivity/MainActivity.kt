@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
                     displayTextView.textSize = number.toFloat()
                 }
             }
-
             override fun onNothingSelected(p0: AdapterView<*>?) {}
         }
 

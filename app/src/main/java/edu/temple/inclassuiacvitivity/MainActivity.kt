@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         val adapter = ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, numberArray)
         spinner.adapter = adapter
 
-
         // TODO Step 4: Change TextView's text size to the number selected in the Spinner */
         spinner.onItemSelectedListener = object: AdapterView.OnItemSelectedListener {
             override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
@@ -28,6 +27,7 @@ class MainActivity : AppCompatActivity() {
             }
             override fun onNothingSelected(p0: AdapterView<*>?) {}
         }
+
 
     }
 }
